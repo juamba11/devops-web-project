@@ -35,7 +35,7 @@ pipeline {
   }
   stage('Push to Docker Hub') {
    steps {
-    sh 'docker push juamba11/devops-web-project:v1'
+    sh 'docker push juambarm11/devops-web-project:v1'
    }
   }
  }
